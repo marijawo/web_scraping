@@ -35,7 +35,7 @@ try:
     link.click()
     # time.sleep(5)
 
-    # No rechign this page, will have to look at it later
+    # NOT reaching this page, will have to look at it later
     link = WebDriverWait(driver, 10).until(
         EC.presence_of_element_located((By.XPATH, "//div/span[@class='part-no'][1]"))
     )
